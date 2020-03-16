@@ -1,0 +1,47 @@
+{
+        "software": [
+        {
+                "name":"HUH100",
+                "datasets":[
+                        {
+                                "dsname":"SHUHZFS",
+                                "dstype":"ZFS",
+                                "primary":5250,
+                                "secondary":525,
+                                "zones":["T"],
+                                "dddefpath":"usr/lpp/IBM/rseapi/IBM/",
+                                "mountpnt":"/usr/lpp/IBM/rseapi/",
+				"leaves":"IBM"
+                        },
+                        {
+                                "dsname":"SHUHSAMP",
+                                "dstype":"PDSE",
+                                "recfm":"FB",
+                                "lrecl":80,
+                                "primary":15,
+                                "secondary":5,
+                                "zones":["T"]
+                        },
+                        {
+                                "dsname":"AHUHSAMP",
+                                "dstype":"PDSE",
+                                "recfm":"FB",
+                                "lrecl":80,
+                                "primary":60,
+                                "secondary":15,
+                                "zones":["D"]
+                        },
+                        {
+                                "dsname":"AHUHZFS",
+                                "dstype":"PDSE",
+                                "recfm":"VB",
+                                "lrecl":8796,
+                                "primary":5250,
+                                "secondary":525,
+                                "zones":["D"]
+                        }
+                ]
+        }
+        ]
+}
+

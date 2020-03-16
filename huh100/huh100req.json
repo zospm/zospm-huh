@@ -1,0 +1,8 @@
+{ 
+	"software": [{ 
+		"relid":"HUH100", 
+		"description":"Z/OS Exploror API",
+		"prereq":[],
+		"coreq": []
+	}] 
+}
