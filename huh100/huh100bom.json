@@ -10,7 +10,7 @@
                                 "secondary":525,
                                 "zones":["T"],
                                 "dddefpath":"usr/lpp/IBM/rseapi/IBM/",
-                                "mountpnt":"/usr/lpp/IBM/rseapi/",
+                                "mountpnt":"usr/lpp/IBM/rseapi/",
 				"leaves":"IBM"
                         },
                         {
