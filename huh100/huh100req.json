@@ -1,8 +1,41 @@
 { 
 	"software": [{ 
-		"relid":"HUH100", 
-		"description":"Z/OS Exploror API",
-		"prereq":[],
+		"relid":"HUH100",
+		"description":"IBM z/OS Explorer API",
+		"prereq":
+		[
+			{  
+			"prodid":"FEK",
+			"description":"z/OS Explorer Base",
+			"release":
+			[
+				{
+				"relid":"FEK311",
+				"fmids": [
+					{
+					"fmid":"HALG310",
+					"description":"z/OS Explorer 3.1.1",
+					"ptfs":	[
+						"HALG310" 
+					]
+					}
+				]
+				},
+				{
+                                "relid":"FEK320",
+                                "fmids": [
+                                        {
+                                        "fmid":"HALG320",
+                                        "description":"z/OS Explorer 3.2.0",
+                                        "ptfs": [
+                                                "HALG320"
+                                        ]
+                                        }
+                                ]
+                                }
+			]
+			}
+		],
 		"coreq": []
 	}] 
 }
