@@ -1,7 +1,7 @@
 {
         "software": [
         {
-                "name":"HUH100",
+                "relid":"HUH100",
                 "datasets":[
                         {
                                 "dsname":"SHUHZFS",
