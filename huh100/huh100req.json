@@ -16,23 +16,28 @@
 					"fmid":"HALG310",
 					"description":"z/OS Explorer 3.1.1",
 					"ptfs":	[
-						"HALG310" 
+						"UI51053","UI51794","UI52607",UI53601","UI54540",
+						"UI55170","UI55777","UI56381","UI57214","UI57808",
+						"UI58187","UI59068","UI59623","UI60636","UI61722",
+						"UI62925","UI63528","UI64702","UI65057","UI66683",
+						"UI67384","UI68248","UI69399"
 					]
 					}
 				]
 				},
 				{
-                                "relid":"FEK320",
-                                "fmids": [
-                                        {
-                                        "fmid":"HALG320",
-                                        "description":"z/OS Explorer 3.2.0",
-                                        "ptfs": [
-                                                "HALG320"
-                                        ]
-                                        }
-                                ]
-                                }
+				"relid":"FEK320",
+				"fmids": [
+					{
+					"fmid":"HALG320",
+					"description":"z/OS Explorer 3.2.0",
+					"ptfs": [
+						"UI61282","UI62591","UI63687","UI65205","UI66345",
+						"UI66849","UI67578","UI68624","UI69673"
+					]
+					}
+				]
+				}
 			]
 			}
 		],
